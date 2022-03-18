@@ -1127,7 +1127,7 @@ label {
 .btn-form {
     background-color: #c12727;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 10px;
     color: #fff;
     border-radius: 5px;
     margin-top: 1rem;
