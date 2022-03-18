@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.1/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js" crossorigin="anonymous" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.1/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Cursos</title>
+ </head>
+ <body>
+  <header>
+   <a href="./home.html" class="logo">
+    <h1>Atmosphere JKD</h1>
+   </a>
+
+   <ul class="nav">
+    <li class="navlink"><a href="./home.html">Home</a></li>
+    <li class="navlink"><a href="./cursos.html">Cursos</a></li>
+    <li class="navlink"><a href="./videos.html">Videos</a></li>
+    <li class="navlink"><a href="./faq.html">FAQ</a></li>
+    <li class="navlink"><a href="./contato.html">Contato</a></li>
+   </ul>
+
+   <div class="burger">
+    <i class="fas fa-bars"></i>
+   </div>
+  </header>
+
+  <main>
+   <div class="title-cursos">
+    <h1>Cursos Online</h1>
+   </div>
+   <div class="swiffy-slider">
+    <ul class="slider-container">
+      <iframe style="opacity: 0.5;"width="auto" height="auto" src="https://www.youtube.com/embed/SUdKi7HqK54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+
+     <li style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <h2 class="title-curso-sliders">Curso Básico de Jeet Kune Do</h2>
+      <img src="./images/slider/curso1.png" style="width: 100%; height: auto;" />
+      <a class="cursos-btn" href="https://pay.hotmart.com/O18559047Q?checkoutMode=10&bid=1646735440131" target="_blank">Saiba Mais </a>
+     </li>
+
+     <li style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <h2 class="title-curso-sliders">Explosive Full Training JKD</h2>
+      <img src="./images/slider/curso2.png" style="width: 100%; height: auto;" />
+      <a class="cursos-btn" href="https://pay.hotmart.com/N18924742A?checkoutMode=10&bid=1646737926316" target="_blank">Saiba Mais </a>
+     </li>
+
+     <li style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <img src="./images/slider/curso3.png" style="width: 100%; height: auto;" />
+      <h2 class="title-curso-sliders">Atmosphere JKD Combos</h2>
+      <a class="cursos-btn" href="https://pay.hotmart.com/C23118192D?checkoutMode=10&bid=1646738812265" target="_blank">Saiba Mais</a>
+     </li>
+
+     <li style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <img src="./images/slider/curso4.png" style="width: 100%; height: auto;" />
+      <h2 class="title-curso-sliders">Atmosphere Fighting Method</h2>
+      <a class="cursos-btn" href="https://www.hotmart.com/product/atmosphere-jkd-explosive-combos/G41278930C" target="_blank">Saiba Mais</a>
+     </li>
+    </ul>
+
+    <button type="button" class="slider-nav"></button>
+    <button type="button" class="slider-nav slider-nav-next"></button>
+
+    <div class="slider-indicators">
+     <button class="active"></button>
+     <button></button>
+     <button></button>
+     <button></button>
+     <button></button>
+    </div>
+   </div>
+  </main>
+
+  <section>
+   <div class="atmosphere-jkd-online">
+    <h1>Discover Your Flow</h1>
+   </div>
+
+   <div class="selecao-cursos-container">
+    <div class="selecao-cursos">
+     <div>
+      <h3>Selecione o Curso:</h3>
+     </div>
+     <button onclick="clickCursoBasico()" class="fade-in">Curso 1</button>
+     <button onclick="clickExoplosiveFull()" class="fade-in">Curso 2</button>
+     <button onclick="clickJKDCombos()" class="fade-in">Curso 3</button>
+     <button onclick="clickAtmosphereFighting()" class="fade-in">Curso 4</button>
+    </div>
+
+    <div class="cursos-display-container">
+     <div class="curso-1-display display-curso">
+      <div class="atm-tilte">
+       <h1>Curso Básico de Jeet Kune Do</h1>
+      </div>
+
+      <div class="atm-content">
+       <div class="atm-image">
+        <iframe
+         width="560px"
+         height="315px"
+         src="https://www.youtube.com/embed/1IqzLdk-LI4"
+         title="YouTube video player"
+         frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen
+        ></iframe>
+       </div>
+
+       <div class="atm-description">
+        <ul>
+         <h4>Assutos Abordados:</h4>
+         <li>Guarda</li>
+         <li>Footworks</li>
+         <li>Socos Básicos</li>
+         <li>Chutes Básicos</li>
+         <li>Defesas</li>
+         <li>Combos</li>
+        </ul>
+
+        <div class="atm-btn">
+         <a href="https://pay.hotmart.com/O18559047Q?checkoutMode=10&bid=1646735440131" target="_blank">Comece Já</a>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="curso-2-display display-curso">
+      <div class="atm-tilte">
+       <h1>Explosive Full Training JKD</h1>
+      </div>
+
+      <div class="atm-content">
+       <div class="atm-image">
+        <iframe
+         width="560"
+         height="315"
+         src="https://www.youtube.com/embed/lHTM841yWhQ"
+         title="YouTube video player"
+         frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen
+        ></iframe>
+       </div>
+
+       <div class="atm-description">
+        <ul>
+         <h4>Assutos Abordados:</h4>
+         <li>Velocidade</li>
+         <li>Força e Precisão</li>
+         <li>Interceptação</li>
+         <li>Drills</li>
+         <li>Trappings</li>
+         <li>Combos</li>
+        </ul>
+
+        <div class="atm-btn">
+         <a href="https://pay.hotmart.com/N18924742A?checkoutMode=10&bid=1647194137864" target="_blank">Comece Já</a>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="curso-3-display display-curso">
+      <div class="atm-tilte">
+       <h1>Atmosphere JKD Combos</h1>
+      </div>
+
+      <div class="atm-content">
+       <div class="atm-image">
+        <iframe
+         width="560"
+         height="315"
+         src="https://www.youtube.com/embed/0G3gJSw27Pg"
+         title="YouTube video player"
+         frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen
+        ></iframe>
+       </div>
+
+       <div class="atm-description">
+        <ul>
+         <h4>Assutos Abordados:</h4>
+         <li>Combos</li>
+         <li>Velocidade</li>
+         <li>Sparring</li>
+         <li>Self Defense</li>
+        </ul>
+
+        <div class="atm-btn">
+         <a href="https://pay.hotmart.com/C23118192D?checkoutMode=10&bid=1647194497308" target="_blank">Comece Já</a>
+        </div>
+       </div>
+      </div>
+     </div>
+
+     <div class="curso-4-display display-curso">
+      <div class="atm-tilte">
+       <h1>Atmosphere JKD Fighting Method</h1>
+      </div>
+
+      <div class="atm-content">
+       <div class="atm-image">
+        <iframe
+         width="560"
+         height="315"
+         src="https://www.youtube.com/embed/W_kOKa-VIzs"
+         title="YouTube video player"
+         frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+         allowfullscreen
+        ></iframe>
+       </div>
+
+       <div class="atm-description">
+        <ul>
+         <h4>Assutos Abordados:</h4>
+         <li>Combos</li>
+         <li>Velocidade</li>
+         <li>Sparring</li>
+         <li>Self Defense</li>
+         <li>Review dos Cursos</li>
+         </ul>
+
+        <div class="atm-btn">
+         <a href="https://www.hotmart.com/product/atmosphere-jkd-explosive-combos/G41278930C" target="_blank">Comece Já</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <footer>
+   <div class="footer">
+    <div class="footer-container">
+     <div class="footer-logo-container">
+      <h1 class="footer-logo">Atmosphere JKD</h1>
+     </div>
+
+     <div class="social-mida">
+      <a href="https://www.youtube.com/c/AtmosphereJeetKuneDo" target="_blank"><img src="./images/youtube.svg" alt="youtube" /></a>
+
+      <a href="https://www.facebook.com/atmospherejeetkunedo/" target="_blank"><img src="./images/facebook.svg" alt="facebook" /></a>
+
+      <a href="https://www.instagram.com/atmospherejeetkunedo/" target="_blank"><img src="./images/instagram.svg" alt="instagram" /></a>
+     </div>
+
+     <div>
+      <a href="mailto:atmospherejeetkunedo@gmail.com" class="email-footer">atmospherejeetkunedo@gmail.com</a>
+      <p class="copy-right">Todos os direitos reservados ©.</p>
+     </div>
+    </div>
+
+    <button class="top-btn">^</button>
+   </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+ </body>
+</html>
