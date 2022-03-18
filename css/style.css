@@ -1087,12 +1087,6 @@ margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 90px;
     background: #fbfbfb;
-    border: 2px solid #FFF;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .form-nome,
@@ -1133,12 +1127,11 @@ label {
 .btn-form {
     background-color: #c12727;
     cursor: pointer;
-    padding: 0.8rem;
+    padding: 0.5rem;
     color: #fff;
     border-radius: 5px;
     margin-top: 1rem;
-    font-size: 1.3rem;
-    margin: 1rem 2rem;
-    /* outline: none; */
+    font-size: 14px;
+    outline: none;
     border: none;
 }
