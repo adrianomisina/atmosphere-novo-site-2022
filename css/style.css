@@ -1046,7 +1046,7 @@ margin: 0 auto;
 
 .form-background {
     background-color: #151515;
-    background-image:url('/atmosphere-novo-site-2022/images/hero-bg.svg');
+    background-image:url('../images/hero-bg.svg');
     width:auto;
     background-size:cover;
     background-position:center;
