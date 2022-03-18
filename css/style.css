@@ -1131,10 +1131,13 @@ label {
 
 .btn-form {
     background-color: #c12727;
-    outline: none;
-    border: none;
-    padding: .8rem;
+    cursor: pointer;
+    padding: 0.8rem;
     color: #fff;
     border-radius: 5px;
-    margin-top: 1rem;;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin: 1rem 1rem;
+    /* outline: none; */
+    border: none;
 }
