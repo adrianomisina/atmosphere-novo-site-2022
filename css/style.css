@@ -439,7 +439,8 @@ opacity: 0;
 -webkit-transition: .3s;
 -o-transition: .3s;
 transition: .3s;
-width: 19px;
+width: 1.8rem;
+height: 1.5rem;
 background-color:#C13636 ;
 -webkit-box-shadow: 0 0 5px red;
         box-shadow: 0 0 5px red;
@@ -1137,7 +1138,7 @@ label {
     border-radius: 5px;
     margin-top: 1rem;
     font-size: 1.3rem;
-    margin: 1rem 1rem;
+    margin: 1rem 2rem;
     /* outline: none; */
     border: none;
 }
